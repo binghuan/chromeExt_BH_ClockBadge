@@ -1,6 +1,6 @@
 {
   "name": "Clock Badge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show current time",
   "icons": {
     "16": "Icon-16.png",

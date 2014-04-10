@@ -2,8 +2,7 @@ var DBG = true;
 
 var currentTime = "";
 var time;
-function checkTime()
-{
+function checkTime() {
 
     time = (new Date());
     var hours = time.getHours();
@@ -12,19 +11,21 @@ function checkTime()
     if(hours < 10) {
         currentTime = "0" +  hours;
     } else {
-        currentTime = hours;
+        currentTime = "" + hours;
     }
+
+    console.log("getHours: " + currentTime);
 
     //currentTime += ":";
 
     if(minutes < 10) {
         currentTime += "0" +  minutes;
     } else {
-        currentTime += minutes;
+        currentTime += "" + minutes;
     }
 
+    console.log("show time: " + currentTime);
     chrome.browserAction.setBadgeText({text:currentTime});
-    //chrome.browserAction.setIcon({path:currentWeatherInfo.weatherIconUrl[0].value});  
 }
 
 function scheduleRequest() {
