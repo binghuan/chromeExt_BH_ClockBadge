@@ -1,5 +1,11 @@
 # Clock Badge - Chrome Extension
 
+## Feature overview
+
+![chromeExt_BH_ClockBadge — feature flow diagram](README-assets/project-preview.svg)
+
+Conceptual feature flow based on this repository; this is a documentation diagram, not an application screenshot.
+
 <img src="Icon.png" width="auto" height="240px"><br/>
 
 **Show me current time**
